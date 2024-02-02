@@ -9,7 +9,5 @@ apiRouter.use('/minions', minionsRouter);
 apiRouter.use('/meetings', meetingsRouter);
 apiRouter.use('/ideas', ideasRouter);
 
-
-
 module.exports = apiRouter;
  
