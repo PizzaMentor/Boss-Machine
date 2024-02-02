@@ -1,0 +1,1 @@
+const minionsRouter = require('express').Router();

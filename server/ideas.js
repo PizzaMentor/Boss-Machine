@@ -1,0 +1,1 @@
+const ideasRouter = require('express').Router();
