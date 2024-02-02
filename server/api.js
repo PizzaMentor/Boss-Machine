@@ -2,12 +2,12 @@ const express = require('express');
 const apiRouter = express.Router();
 
 const minionsRouter = require('./minions');
-const meetingsRouter = require('./meetings');
 const ideasRouter = require('./ideas');
+const meetingsRouter = require('./meetings');
 
 apiRouter.use('/minions', minionsRouter);
-apiRouter.use('/meetings', meetingsRouter);
 apiRouter.use('/ideas', ideasRouter);
+apiRouter.use('/meetings', meetingsRouter);
 
 module.exports = apiRouter;
- 
+
